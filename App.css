@@ -1,0 +1,75 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body--container {
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.icon--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.project--divs {
+    width: 50vw;
+}
+
+.inline {
+    display: inline-block;
+    text-align: left;
+}
+
+.float--left {
+    float: left;
+    margin-left: 15px;
+}
+
+.float--right {
+    float: right;
+    margin-right: 15px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin: 5px;
+    padding: 5px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
